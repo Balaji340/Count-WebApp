@@ -1,17 +1,18 @@
-let saveEl = document.getElementById("save-el");
-let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el"); // New element to display save
+let countEl = document.getElementById("count-el"); // New element to display count
+let totalEl = document.getElementById("total-el"); // New element to display total
 let count = 0;
 
 function increment() {
     count += 1;
-    countEl.textContent = count;
+    countEl.textContent = count; // Update count display element
 }
 
 function save() {
     let countStr = count + " - ";
-    saveEl.textContent += countStr;
-    countEl.textContent = 0;
-    count = 0;
+    saveEl.textContent += countStr; 
+    countEl.textContent = 0; 
+    count = 0; // Update the save display element
 }
 
 function calculateTotal() {
@@ -23,5 +24,5 @@ function calculateTotal() {
             total += countNum;
         }
     }
-    alert("Total: " + total);
+    totalEl.textContent = "Total: " + total; // Update the total display element
 }
