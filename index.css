@@ -13,8 +13,8 @@ body {
 
 .container {
     background: #4A6572;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -25,14 +25,17 @@ body {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 }
 
+
 h1 {
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-p{
-  color: white;
+p {
+   color: white;
+   text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 button {
@@ -47,6 +50,7 @@ button {
     margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
 
@@ -60,4 +64,16 @@ button {
 
 #total-btn {
     background: #f9aa33;
+}
+
+.glow {
+  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  color: #black;
+  text-align: center;
+  color: #f9aa33;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
