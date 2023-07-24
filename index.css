@@ -1,4 +1,3 @@
-/* Common styles for both phone and PC */
 body {
     background-image: url("station.jpg");
     background-size: cover;
@@ -17,6 +16,7 @@ body {
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 h1 {
@@ -39,6 +39,10 @@ button {
     margin: 5px auto;
     border-radius: 5px;
     cursor: pointer;
+    button-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
 }
 
 #increment-btn {
