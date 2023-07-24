@@ -5,13 +5,19 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>People entered:</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <button id="total-btn" onclick="calculateTotal()">Total</button>
-    <p id="save-el">Previous entries: </p>
-    <p id="total-el">Total: </p>
+    <div class="container">
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+    </div>
+        <div class="container">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <button id="total-btn" onclick="calculateTotal()">Total</button>
+    </div>
+    <div class="container">
+        <p id="save-el">Previous entries: </p>
+        <p id="total-el">Total: </p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
