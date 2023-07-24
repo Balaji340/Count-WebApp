@@ -1,7 +1,7 @@
 body {
     background-image: url("6072038_3145241.jpg");
     background-size: cover;
-    font-family: Oxygen;
+    font-family: cursive;
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -10,13 +10,13 @@ body {
 
 .container {
     background: white;
-    margin: 90px;
-    padding: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 5px;
+    margin: 60px;
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -56,19 +56,4 @@ button {
 
 #total-btn {
     background: darkblue;
-}
-
-/* Responsive design for phone users */
-@media (max-width: 767px) {
-    .container {
-        max-width: 90%; /* Adjust the container width for smaller screens */
-    }
-
-    h2 {
-        font-size: 30px; /* Slightly reduce font size for h2 on small screens */
-    }
-
-    button {
-        width: 150px; /* Reduce button width on small screens */
-    }
 }
